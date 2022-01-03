@@ -1,0 +1,14 @@
+
+.dashboard {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    width: 100%;
+    background-image: linear-gradient(to right, blue, darkblue);
+}
+
+.font {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
