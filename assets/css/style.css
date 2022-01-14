@@ -1,14 +1,29 @@
-
+body{
+    margin: 0;
+}
+.container {
+    margin: 0;
+}
+.container-2 {
+    margin-left: 25%;
+    margin-top: auto;
+    height: 300px;
+}
 .dashboard {
     text-align: center;
     color: white;
     background-color: darkblue;
-    width: 100%;
     background-image: linear-gradient(to right, blue, darkblue);
+    width: 100%;
 }
 
 .font {
     text-align: left;
     font-weight: bold;
     font-size: large;
+}
+.font-p {
+    text-align: center;
+    font-weight: bold;
+    
 }

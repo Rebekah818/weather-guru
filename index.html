@@ -14,30 +14,37 @@
 
 <body>
 
-    <header class="container dashboard">
-        <h1 class="row text-center">Weather Dashboard</h1>
+    <header class="col-12">
+        <h1 class="text-center dashboard ">Weather Dashboard</h1>
     </header>
-    <div class="container">
+    <section class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-8">
                 <p class="font">Search for a City:</p>
-                <input type="text" class="col-6" placeholder="Enter city name" aria-label="City-name"
+                <input type="text" class="col-2" placeholder="Enter city name" aria-label="City-name"
                     aria-describedby="basic-addon2">
                 <div class="input-group-append">
                     <br>
-                    <button class="btn btn-primary" type="button">Submit</button>
+                    <button id="submit" class="btn btn-primary" type="button">Submit</button>
+                    <p></p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
 
-                </div>
             </div>
         </div>
+    </section>
+    <section class="container-2 border">
+        <div class="row">
+            <div class="col">
+                <p class="font-p col-2">5-Day Forecast:</p>
+
+            </div>
+        </div>
+
+    </section>
     </div>
 
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
