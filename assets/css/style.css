@@ -4,11 +4,7 @@ body{
 .container {
     margin: 0;
 }
-.container-2 {
-    margin-left: 25%;
-    margin-top: auto;
-    height: 300px;
-}
+
 .dashboard {
     text-align: center;
     color: white;
