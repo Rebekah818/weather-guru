@@ -13,6 +13,10 @@ $(document).ready(function () {
             });
     });
 });
+
+
+
+
 function getCityInfo(lat,lon) {
     fetch("https://api.openweathermap.org/data/2.5/onecall?lat="+lat+"&lon="+lon+"&units=imperial&appid=65b56975875192b114dbc4d00909c453")
     .then(response => response.json())
